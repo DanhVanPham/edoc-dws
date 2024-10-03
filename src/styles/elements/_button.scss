@@ -1,0 +1,221 @@
+/* ========== BUTTONS ========== */
+button:hover {
+    opacity: 0.7;
+}
+
+.btn-none {
+    border: 0 !important;
+    background-color: unset !important;
+}
+
+.btn-none::before {
+    content: unset !important;
+}
+
+.btn-none::after {
+    content: unset !important;
+}
+
+.btn-tag {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: var(--color-azure-50);
+    color: var(--color-azure-200);
+    border: 1px solid var(--color-azure);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.btn-tag-style1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: var(--color-neutral-blue-300);
+    color: var(--color-grey-300-opacity);
+    width: fit-content;
+    padding: 2px 4px;
+    border-radius: 20px;
+}
+
+.btn-tag-style1 .highlight {
+    color: var(--color-grey-300);
+    font-weight: 500;
+}
+
+.btn-tag-style2 {
+    /* apperance */
+    color: var(--color-black);
+    background-color: var(--color-grey-50);
+    border-radius: 8px;
+    padding: 2px 4px;
+    width: max-content;
+    height: 24px;
+    /* fonts */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.btn-docs-icon {
+    background-color: var(--color-azure-50);
+    padding: 0.2rem 0.4rem;
+    border-radius: 8px;
+}
+
+.btn-icon {
+    background-color: var(--color-white);
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.btn-icon-style1 {
+    background-color: var(--color-grey);
+    color: var(--color-grey-50);
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.btn-search-wrapper {
+    position: relative;
+}
+
+.btn-search-wrapper .icon-search {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.btn-search-wrapper .form-input-search {
+    background-color: var(--color-grey-50);
+    padding: 0.3rem 0 0.3rem 2rem;
+    border: 0;
+    border-radius: 20px;
+}
+
+.btn-tab {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    border: 1px solid var(--color-grey);
+}
+
+.btn-tab.active {
+    background-color: var(--color-green-opacity-50);
+    border: 1px solid var(--color-green);
+}
+
+.btn-tab-style1 {
+    background-color: var(--color-white);
+    color: var(--color-grey);
+    border: 1px solid var(--color-grey);
+    font-size: 12px;
+}
+
+.btn-tab-style1.active {
+    background-color: var(--color-blue-opacity-50);
+    color: var(--color-black);
+    border: 1px solid var(--color-blue);
+}
+
+.btn-tab-size-1 {
+    padding: 0 0.4rem;
+    font-size: 14px;
+}
+
+.btn-dropdown {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.btn-dropdown.show {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.btn-schedule-datetime {
+    /* apperance */
+    color: var(--color-black-opacity-40);
+    background-color: var(--color-neutral-blue);
+    border-radius: 20px;
+    width: 135px;
+    height: 40px;
+    border: 0;
+    /* fonts */
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.btn-schedule-datetime.active {
+    color: var(--color-black);
+    background-color: var(--color-grey-50);
+}
+
+.btn-primary {
+    background-color: var(--color-blue);
+}
+
+.btn-grey {
+    background-color: var(--color-grey);
+    color: var(--color-white);
+}
+
+.btn-white {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    border: 1px solid var(--color-grey-50);
+}
+
+.btn-outline-grey-300 {
+    border-color: var(--color-grey-300);
+    background-color: var(--color-white);
+    color: var(--color-grey-300);
+}
+
+.btn-outline-grey {
+    border-color: var(--color-grey);
+    background-color: var(--color-white-100);
+    color: var(--color-grey);
+}
+
+.btn-outline-blue {
+    border-color: var(--color-blue);
+    background-color: var(--color-white);
+    color: var(--color-azure-200);
+}
+
+.btn-outline-pink-300 {
+    border-color: var(--color-pink-300);
+    background-color: var(--color-white);
+    color: var(--color-pink-300);
+}
+
+.btn-outline-cyan {
+    border-color: var(--color-cyan);
+    background-color: var(--color-white);
+    color: var(--color-cyan);
+}
+
+.btn-outline-teal {
+    border-color: var(--color-teal);
+    background-color: var(--color-white);
+    color: var(--color-teal);
+}
+
+.btn-pink-300 {
+    background-color: var(--color-pink-300);
+    color: var(--color-white);
+}

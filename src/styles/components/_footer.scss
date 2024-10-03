@@ -1,0 +1,83 @@
+/* ========== FOOTER ========== */
+#bst-footer .utilities {
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+#bst-footer .utilities .chatbot {
+    width: 100%;
+    height: 100%;
+}
+
+#bst-footer .utilities .chatbot .chatbot-tools {
+    position: absolute;
+    bottom: 5rem;
+    left: 0;
+    right: 0;
+}
+
+#bst-footer .utilities .chatbot button.dropdown-toggle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#bst-footer .utilities .chatbot button.show {
+    visibility: hidden;
+}
+
+#bst-footer .utilities .chatbot button:hover {
+    opacity: 0.9;
+}
+
+#bst-footer .utilities .chatbot .dropdown-menu {
+    width: 370px;
+    height: 514px;
+    padding: 0;
+    border: 0;
+    border-radius: 15px;
+    transform: translate(0, 0) !important;
+}
+
+#bst-footer .utilities .chatbot .card {
+    border: 0;
+    border-radius: 15px;
+    height: 95%;
+}
+
+#bst-footer .utilities .chatbot .card-header {
+    border: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: var(--color-white);
+}
+
+#bst-footer .utilities .chatbot .card-body {
+    border: 0;
+    background-color: var(--color-neutral-blue-300);
+}
+
+#bst-footer .utilities .chatbot .card-footer {
+    border: 0;
+    background-color: var(--color-white);
+    padding: 0;
+}
+
+#bst-footer .utilities .chatbot .dot-container {
+    bottom: -6px;
+    right: -3px;
+}
+
+#bst-footer .utilities .chatbot .dot {
+    width: 14px;
+    height: 14px;
+}
+
+#bst-footer .utilities .chatbot #chatbox.expanded {
+    width: 50%;
+    height: calc(100% - 80px);
+    transform: translate(2rem, 1rem) !important;
+}

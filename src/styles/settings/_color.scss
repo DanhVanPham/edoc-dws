@@ -1,0 +1,150 @@
+:root {
+  --color-blue: #006efa;
+  --color-blue-50: #e6f1ff;
+  --color-blue-100: #d9e9fe;
+  --color-blue-200: #b0d2fd;
+  --color-blue-300: #0063e1;
+  --color-blue-400: #0058c8;
+  --color-blue-500: #0053bc;
+  --color-blue-600: #004296;
+  --color-blue-700: #003170;
+  --color-blue-800: #002758;
+
+  --color-blue-opacity-40: #3760ff66;
+  --color-blue-opacity-50: rgba(0, 110, 250, 0.5);
+
+  --color-violet: #8a3baf;
+  --color-violet-50: #f3ebf7;
+  --color-violet-100: #ede2f3;
+  --color-violet-200: #dbc2e6;
+  --color-violet-300: #7c359e;
+  --color-violet-400: #6e2f8c;
+  --color-violet-500: #682c83;
+  --color-violet-600: #532369;
+  --color-violet-700: #3e1b4f;
+  --color-violet-800: #30153d;
+
+  --color-teal: #26ab97;
+  --color-teal-50: #e9f7f5;
+  --color-teal-100: #def2ef;
+  --color-teal-200: #bce5df;
+  --color-teal-300: #229a88;
+  --color-teal-400: #1e8979;
+  --color-teal-500: #1d8071;
+  --color-teal-600: #17675b;
+  --color-teal-700: #114d44;
+  --color-teal-800: #0d3c35;
+
+  --color-cyan: #38b6ff;
+  --color-cyan-50: #ebf8ff;
+  --color-cyan-100: #e1f4ff;
+  --color-cyan-200: #c1e8ff;
+  --color-cyan-300: #32a4e6;
+  --color-cyan-400: #2d92cc;
+  --color-cyan-500: #2a89bf;
+  --color-cyan-600: #226d99;
+  --color-cyan-700: #195273;
+  --color-cyan-800: #144059;
+
+  --color-white: #ffffff;
+  --color-white-50: #f1f1f1f1;
+  --color-white-100: #d9d9d9;
+
+  --color-black: #000000;
+  --color-black-50: #212529;
+  --color-semiblack: rgba(0, 0, 0, 0.1);
+  --color-semiblack-2: rgba(0, 0, 0, 0.7);
+  --color-black-opacity-40: #00000066;
+
+  --color-neutral-blue: #fbfbfd;
+  --color-neutral-blue-50: #fefeff;
+  --color-neutral-blue-100: #f9f9fc;
+  --color-neutral-blue-200: #f7f7fb;
+  --color-neutral-blue-300: #f5f5fa;
+  --color-neutral-blue-400: #acacaf;
+  --color-neutral-blue-500: #959599;
+
+  --color-grey: #a2a2a2;
+  --color-grey-50: #e8e8e8;
+  --color-grey-100: #7b7b7b;
+  --color-grey-200: #434343;
+  --color-grey-300: #1c1c1c;
+  --color-grey-400: #141414;
+  --color-grey-500: #111111;
+
+  --color-grey-300-opacity: #1c1c1c80;
+
+  --color-red: #ff3b30;
+  --color-red-50: #ffebea;
+  --color-red-100: #ffe2e0;
+  --color-red-200: #ffc2bf;
+  --color-red-300: #e6352b;
+  --color-red-400: #cc2f26;
+  --color-red-500: #bf2c24;
+  --color-red-600: #99231d;
+  --color-red-700: #731b16;
+  --color-red-800: #591511;
+
+  --color-orange: #ff9500;
+  --color-orange-50: #fff4e6;
+  --color-orange-100: #ffefd9;
+  --color-orange-200: #ffdeb0;
+  --color-orange-300: #e68600;
+  --color-orange-400: #cc7700;
+  --color-orange-500: #bf7000;
+  --color-orange-600: #995900;
+  --color-orange-700: #734300;
+  --color-orange-800: #593400;
+
+  --color-green: #34c759;
+  --color-green-50: #ebf9ee;
+  --color-green-100: #e1f7e6;
+  --color-green-200: #c0eecc;
+  --color-green-250: #a1e3cb;
+  --color-green-300: #2fb350;
+  --color-green-400: #2a9f47;
+  --color-green-500: #279543;
+  --color-green-600: #1f7735;
+  --color-green-700: #175a28;
+  --color-green-800: #12461f;
+
+  --color-green-opacity-50: rgba(52, 199, 89, 0.5);
+
+  --color-pink: #e7adcc;
+  --color-pink-50: #f9ebf3;
+  --color-pink-100: #dd8bb7;
+  --color-pink-200: #cf5998;
+  --color-pink-300: #c53783;
+  --color-pink-400: #8a275c;
+  --color-pink-500: #782250;
+
+  --color-azure: #96afff;
+  --color-azure-50: #e6ecff;
+  --color-azure-100: #6b8eff;
+  --color-azure-200: #2b5eff;
+  --color-azure-300: #003dff;
+  --color-azure-400: #002bb3;
+  --color-azure-500: #00259c;
+
+  --color-yellow: #ffcc00;
+  --color-yellow-50: #ffcb83;
+
+  --color-gradient-cyan-se: linear-gradient(90deg,
+      rgba(71, 209, 243) 0%,
+      rgba(91, 212, 242) 25%,
+      rgba(136, 218, 239) 50%,
+      rgba(169, 228, 242) 75%,
+      rgba(199, 229, 236) 100%);
+  --color-gradient-purple-se: linear-gradient(90deg,
+      rgb(144, 70, 178) 0%,
+      rgb(148, 79, 180) 25%,
+      rgb(169, 122, 192) 50%,
+      rgb(183, 148, 199) 75%,
+      rgb(188, 159, 202) 100%);
+  --color-gradient-blue-se: linear-gradient(90deg,
+      rgb(18, 120, 249) 0%,
+      rgb(72, 147, 242) 25%,
+      rgb(108, 167, 242) 50%,
+      rgb(155, 192, 239) 75%,
+      rgb(165, 197, 237) 100%);
+}

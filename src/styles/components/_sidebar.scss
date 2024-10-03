@@ -1,0 +1,94 @@
+/* ========== SIDEBAR & SIDEBAR COLLAPSE ========== */
+#bst-sidebar,
+#bst-sidebar-collapse {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: var(--color-white);
+    z-index: 1001;
+    /* vertical line */
+    border-right: 2px solid var(--color-grey-50);
+}
+
+/* reset boards */
+#bst-sidebar .board-single,
+#bst-sidebar .board-collapse,
+#bst-sidebar-collapse .board-single,
+#bst-sidebar-collapse .board-collapse,
+#bst-sidebar-collapse .board-collapse-items {
+    padding: 0;
+    margin: 0;
+}
+
+/* add arrow before collapse item */
+#bst-sidebar .board-collapse .board-item,
+#bst-sidebar-collapse .board-collapse .board-item {
+    position: relative;
+}
+
+#bst-sidebar .board-collapse>li::before,
+#bst-sidebar-collapse .board-collapse>li::before {
+    content: "\203A";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(16px, -3px);
+    font-size: 26px;
+    cursor: pointer;
+}
+
+#bst-sidebar .group-board,
+#bst-sidebar-collapse .group-board {
+    height: inherit;
+}
+
+#bst-sidebar-collapse .group-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ========== SIDEBAR ========== */
+/* add color to board title */
+#bst-sidebar .board-title {
+    color: var(--color-grey-300);
+    opacity: 0.4;
+}
+
+/* format item */
+#bst-sidebar .board-item .board-link {
+    color: var(--color-grey-300);
+    text-wrap: nowrap;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+/* active item */
+#bst-sidebar .board-item.active {
+    background-color: var(--color-blue);
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#bst-sidebar .board-item.active .board-link {
+    color: var(--color-white);
+}
+
+/* ========== SIDEBAR SHADOW ========== */
+#bst-sidebar-shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-semiblack-2);
+    z-index: 1000;
+    /* Ensure it appears above other elements */
+}

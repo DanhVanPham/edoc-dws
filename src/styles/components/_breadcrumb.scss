@@ -1,0 +1,13 @@
+/* ========== BREADCRUMB ========== */
+.breadcrumb {
+    margin-bottom: 0;
+}
+
+.breadcrumb-item a {
+    color: var(--color-grey-300);
+    opacity: 0.4;
+}
+
+.breadcrumb-item.active {
+    color: var(--color-grey-300);
+}

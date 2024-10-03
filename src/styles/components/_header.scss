@@ -1,0 +1,17 @@
+/* ========== HEADER ========== */
+#bst-header {
+    transition: all 0.3s;
+    z-index: 1000;
+    /* horizontal line */
+    border-bottom: 2px solid var(--color-grey-50);
+}
+
+#bst-header.sync-collapse {
+    width: 100% !important;
+}
+
+#bst-header .btn-icon:hover {
+    background-color: var(--color-blue) !important;
+    color: var(--color-white) !important;
+    opacity: 1 !important;
+}

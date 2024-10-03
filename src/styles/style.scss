@@ -1,0 +1,22 @@
+// ---------------------------------
+// SETTINGS
+@import './settings/color';
+
+// ---------------------------------
+// ELEMENTS
+@import './elements/base';
+@import './elements/button';
+@import './elements/form';
+
+// ---------------------------------
+// COMPONENTS
+@import './components/header';
+@import './components/sidebar';
+@import './components/footer';
+@import './components/breadcrumb';
+@import './components/notification/notification';
+
+
+// ---------------------------------
+// UTILS
+@import './utils/utils'
