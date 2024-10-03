@@ -1,9 +1,9 @@
-import DashboardLayout from "./layout/dashboard";
+import Router from "./routes";
 
 function App() {
   return (
     <div className="App">
-      <DashboardLayout />
+      <Router />
     </div>
   );
 }
