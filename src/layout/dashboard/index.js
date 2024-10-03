@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "./header";
-import Sidebar from "./sidebar";
 import MainContent from "./MainContent";
+import { Sidebar } from "./sidebar";
 
 const DashboardLayout = () => {
   const [isCollapse, setIsCollapse] = useState(true);
