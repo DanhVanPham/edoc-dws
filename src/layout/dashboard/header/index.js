@@ -10,30 +10,33 @@ const breadcrumbItems = [
   { label: "Home", link: "#", isActive: true },
 ];
 
-const Header = () => {
+const Header = ({ isCollapse, onCollapse }) => {
   return (
-    <header
-      id="bst-header"
-      className="position-fixed w-100 top-0 end-0 py-2 px-3 bg-white"
-    >
-      <div className="d-flex align-items-center justify-content-between mx-auto p-3 inter-regular">
-        <BreadCrumb items={breadcrumbItems} />
-        <ul className="d-flex column-gap-1 m-0 p-0">
-          <li>
-            <Searchbar />
-          </li>
-          <li>
-            <HelpPopover />
-          </li>
-          <li>
-            <NotificationPopover />
-          </li>
-          <li>
-            <ProfilePopover />
-          </li>
-        </ul>
-      </div>
-    </header>
+    <div id="bst-header-wrapper">
+      <header
+        id="bst-header"
+        className={`position-fixed top-0 end-0 py-2 px-3 w-100 bg-white ${isCollapse ? 'sync-collapse' : ''}`}
+      >
+        <div className="d-flex align-items-center justify-content-between mx-auto p-3 inter-regular">
+          <BreadCrumb items={breadcrumbItems} onCollapse={onCollapse} />
+          <ul className="d-flex column-gap-1 m-0 p-0">
+            <li>
+              <Searchbar />
+            </li>
+            <li>
+              <HelpPopover />
+            </li>
+            <li>
+              <NotificationPopover />
+            </li>
+            <li>
+              <ProfilePopover />
+            </li>
+          </ul>
+        </div>
+      </header>
+      <div class="h-6r"></div>
+    </div>
   );
 };
 

@@ -1,0 +1,74 @@
+/* ========== TABLES ========== */
+.table-rounded {
+	border-collapse: separate !important;
+	border-spacing: 0;
+	border: 0;
+}
+.table-rounded th {
+	border-top: 1px solid var(--color-neutral-blue-300);
+}
+.table-rounded tbody tr:last-of-type th,
+.table-rounded tr:last-of-type td {
+	border-bottom: 1px solid var(--color-neutral-blue-300);
+}
+.table-rounded thead th:first-of-type,
+.table-rounded > tbody > tr > th,
+.table-rounded > tbody > tr > td:first-of-type {
+	border-inline-start-width: 1px;
+	border-inline-start-color: var(--color-neutral-blue-300);
+}
+.table-rounded thead tr th:last-of-type,
+.table-rounded tr td:last-of-type {
+	border-inline-end-width: 1px;
+	border-inline-end-color: var(--color-neutral-blue-300);
+}
+.table-rounded thead th:first-of-type {
+	border-start-start-radius: 0.5rem;
+}
+.table-rounded thead th:last-of-type {
+	border-start-end-radius: 0.5rem;
+}
+.table-rounded tbody > tr:last-of-type > td:first-of-type {
+	border-end-start-radius: 0.5rem;
+}
+.table-rounded tbody > tr:last-of-type > td:last-of-type {
+	border-end-end-radius: 0.5rem;
+}
+.table-rounded tbody td {
+	border-top: 1px solid var(--color-neutral-blue-300);
+}
+.table-rounded thead tr th {
+	background-color: var(--color-grey-50);
+}
+
+.table-rounded-toolbar .toolbar {
+	padding: 0.5rem;
+	padding-bottom: 1rem;
+	border-start-start-radius: 0.5rem;
+	border-start-end-radius: 0.5rem;
+	background-color: var(--color-white);
+}
+.table-rounded-toolbar table.table-rounded thead th {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 20px;
+}
+.table-rounded-toolbar table.table-rounded td {
+	background-color: var(--color-white);
+}
+.table-rounded-toolbar table.table-rounded thead th:first-of-type {
+	border-start-start-radius: 0;
+}
+.table-rounded-toolbar table.table-rounded thead th:last-of-type {
+	border-start-end-radius: 0;
+}
+.table-rounded-toolbar table.table-rounded thead tr th:first-of-type,
+.table-rounded-toolbar table.table-rounded tbody > tr > th {
+	border-inline-start-width: 0;
+}
+.table-rounded-toolbar table.table-rounded thead tr th:last-of-type,
+.table-rounded-toolbar table.table-rounded tr td:last-of-type {
+	border-inline-end-width: 0;
+}

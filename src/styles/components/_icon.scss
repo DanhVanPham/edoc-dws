@@ -1,0 +1,49 @@
+/* ========== ICON: WARNING ========== */
+.icon-warning {
+	border: 1px solid var(--color-orange);
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: baseline;
+}
+.icon-warning i::before {
+	font-size: 16.25px;
+	color: var(--color-orange);
+}
+.icon-warning-black {
+	border-color: var(--color-black);
+}
+.icon-warning-black i::before {
+	color: var(--color-black);
+}
+
+/* ========== ICON: SQUARE ========== */
+span.icon-square {
+	display: inline-block;
+}
+.icon-square {
+	width: 25px;
+	height: 25px;
+	background-color: var(--color-white-100);
+}
+.icon-square-sm {
+	width: 10px;
+	height: 10px;
+}
+
+/* ========== ICON: OVAL ========== */
+span.icon-oval {
+	display: inline-block;
+}
+.icon-oval {
+	width: 25px;
+	height: 25px;
+	background-color: var(--color-white-100);
+	border-radius: 20px;
+}
+.icon-oval-sm {
+	width: 16px;
+	height: 16px;
+}

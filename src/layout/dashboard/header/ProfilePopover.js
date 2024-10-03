@@ -16,7 +16,7 @@ const ProfilePopover = () => {
       {/* <!-- Dropdown --> */}
       <ul className="dropdown-menu dropdown-menu-style1 dropdown-menu-hover-style1 dropdown-menu-sm dropdown-menu-end">
         <li>
-          <a className="dropdown-item" href="#">
+          <a className="dropdown-item" href="/">
             <i className="bi bi-lock"></i>&nbsp;&nbsp;&nbsp;Change Password
           </a>
         </li>
@@ -35,20 +35,20 @@ const ProfilePopover = () => {
             <div className="card card-body border-0 py-0 px-2">
               <ul className="list-group-none">
                 <li>
-                  <a href="#">Grade</a>
+                  <a href="/">Grade</a>
                 </li>
                 <li>
-                  <a href="#">Your Boss</a>
+                  <a href="/">Your Boss</a>
                 </li>
                 <li>
-                  <a href="#">Your Staff</a>
+                  <a href="/">Your Staff</a>
                 </li>
               </ul>
             </div>
           </div>
         </li>
         <li>
-          <a className="dropdown-item" href="#">
+          <a className="dropdown-item" href="/">
             <i className="bi bi-feather"></i>&nbsp;&nbsp;&nbsp;Your Activities
           </a>
         </li>
@@ -56,7 +56,7 @@ const ProfilePopover = () => {
           <hr className="dropdown-divider" />
         </li>
         <li>
-          <a className="dropdown-item" href="#">
+          <a className="dropdown-item" href="/">
             <i className="bi bi-box-arrow-right"></i>
             &nbsp;&nbsp;&nbsp;Log Out
           </a>

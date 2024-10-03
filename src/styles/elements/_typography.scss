@@ -1,0 +1,137 @@
+/* ========== TYPOGRAPHY ========== */
+.display-7 {
+	font-size: 1.5rem;
+	line-height: 20px;
+}
+.display-8 {
+	font-size: 1rem;
+	line-height: 20px;
+}
+.display-9 {
+	font-size: 14px;
+	line-height: 20px;
+}
+.display-10 {
+	font-size: 13px;
+	line-height: 20px;
+}
+.display-11 {
+	font-size: 12px;
+	line-height: 20px;
+}
+.display-11-5 {
+	font-size: 11px;
+	line-height: 20px;
+}
+.display-12 {
+	font-size: 10px;
+	line-height: 20px;
+}
+
+.leading-14 {
+	line-height: 14px;
+}
+.leading-16 {
+	line-height: 16px;
+}
+.leading-17 {
+	line-height: 17px;
+}
+.leading-18 {
+	line-height: 18px;
+}
+.leading-19 {
+	line-height: 19px;
+}
+.leading-1d5r {
+	line-height: 1.5rem;
+}
+.leading-2r {
+	line-height: 2rem;
+}
+.leading-3r {
+	line-height: 3rem;
+}
+
+.font-thin {
+	font-weight: 100;
+}
+.font-extralight {
+	font-weight: 200;
+}
+.font-light {
+	font-weight: 300;
+}
+.font-normal {
+	font-weight: 400;
+}
+.font-medium {
+	font-weight: 500;
+}
+.font-semibold {
+	font-weight: 600;
+}
+.font-bold {
+	font-weight: 700;
+}
+.font-extrabold {
+	font-weight: 800;
+}
+.font-black {
+	font-weight: 900;
+}
+
+.page-title {
+	color: var(--color-black);
+	/* fonts */
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 32px;
+	line-height: 20px;
+}
+.widget-title {
+	color: var(--color-black);
+	/* fonts */
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 20px;
+}
+.input-title {
+	color: var(--color-black) !important;
+	/* fonts */
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 20px;
+}
+.heading-title {
+	color: var(--color-black) !important;
+	/* fonts */
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 16px;
+}
+.subheading-title {
+	color: var(--color-black) !important;
+	/* fonts */
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 16px;
+}
+.smallheading-title {
+	color: var(--color-black) !important;
+	/* fonts */
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 20px;
+}

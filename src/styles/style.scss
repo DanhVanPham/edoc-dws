@@ -1,22 +1,25 @@
 // ---------------------------------
 // SETTINGS
-@import './settings/color';
+@import "./settings/color";
 
 // ---------------------------------
 // ELEMENTS
-@import './elements/base';
-@import './elements/button';
-@import './elements/form';
+@import "./elements/base";
+@import "./elements/button";
+@import "./elements/form";
+@import "./elements/typography";
+@import "./elements/table";
 
 // ---------------------------------
 // COMPONENTS
-@import './components/header';
-@import './components/sidebar';
-@import './components/footer';
-@import './components/breadcrumb';
-@import './components/notification/notification';
-
+@import "./components/header";
+@import "./components/sidebar";
+@import "./components/footer";
+@import "./components/breadcrumb";
+@import "./components/icon";
+@import "./components/notification/notification";
 
 // ---------------------------------
 // UTILS
-@import './utils/utils'
+@import "./utils/utils";
+@import "./settings/responsive";

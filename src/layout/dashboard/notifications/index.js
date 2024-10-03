@@ -30,7 +30,7 @@ const NotificationPopover = () => {
             </button>
             <ul className="dropdown-menu dropdown-menu-sm dropdown-menu-end dropdown-submenu-style1">
               <li>
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item" href="/">
                   Silent mode
                 </a>
               </li>
@@ -38,7 +38,7 @@ const NotificationPopover = () => {
                 <hr className="dropdown-divider" />
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item" href="/">
                   Mark all as read
                 </a>
               </li>
@@ -46,7 +46,7 @@ const NotificationPopover = () => {
                 <hr className="dropdown-divider" />
               </li>
               <li>
-                <a className="dropdown-item text-danger" href="#">
+                <a className="dropdown-item text-danger" href="/">
                   Delete all read
                 </a>
               </li>
@@ -56,35 +56,35 @@ const NotificationPopover = () => {
         {/* <!-- body --> */}
         <ul className="list-group-none list-group-style2">
           <li>
-            <a className="dropdown-item unread" href="#">
+            <a className="dropdown-item unread" href="/">
               <span className="highlight">Mr X</span> wants to edit
               <span className="highlight">Form Budget Transfer</span>
               <span className="checktime d-block mt-1">5 min ago</span>
             </a>
           </li>
           <li>
-            <a className="dropdown-item unread" href="#">
+            <a className="dropdown-item unread" href="/">
               <span className="highlight">Tuan Viet</span> wants to edit
               <span className="highlight">Form Budget ...</span>
               <span className="checktime d-block mt-1">1 hour ago</span>
             </a>
           </li>
           <li>
-            <a className="dropdown-item" href="#">
+            <a className="dropdown-item" href="/">
               <span className="highlight">Huy Nguyen</span> completed
               <span className="highlight">Create New Form</span>
               <span className="checktime d-block mt-1">1:12pm</span>
             </a>
           </li>
           <li>
-            <a className="dropdown-item" href="#">
+            <a className="dropdown-item" href="/">
               <span className="highlight">Pham Tran</span> added you in
               <span className="highlight">Event Open Gra...</span>
               <span className="checktime d-block mt-1">10:45pm</span>
             </a>
           </li>
           <li>
-            <a className="dropdown-item" href="#">
+            <a className="dropdown-item" href="/">
               <span className="highlight">Pham Tran</span> added you in
               <span className="highlight">Event Open Gra...</span>
               <span className="checktime d-block mt-1">10:45pm</span>
