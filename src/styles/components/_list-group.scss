@@ -1,0 +1,48 @@
+/* ========== LIST GROUP ========== */
+.list-group-none {
+    padding: 0;
+    margin: 0;
+}
+
+.list-group-style1 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.list-group-style1 li {
+    border: 0;
+}
+
+.list-group-style1 li.title,
+.list-group-style1 li.daytime {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.list-group-style1 li.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-group-style2 li a {
+    margin-top: 0.5rem;
+    /* fonts */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.list-group-style2 li a .highlight {
+    font-weight: 500;
+}
+
+.checktime {
+    color: var(--color-grey);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 16px;
+}

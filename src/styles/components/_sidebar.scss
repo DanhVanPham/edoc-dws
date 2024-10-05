@@ -5,36 +5,39 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	padding: 1rem;
+	padding: 0.75rem;
+	padding-right: 0;
 	background-color: var(--color-white);
 	z-index: 1001;
 	/* vertical line */
 	border-right: 2px solid var(--color-grey-50);
 }
 
+#bst-sidebar-collapse {
+	padding: 0.5rem;
+	padding-right: 0rem;
+}
+
 /* reset boards */
-#bst-sidebar .board-single,
-#bst-sidebar .board-collapse,
-#bst-sidebar-collapse .board-single,
-#bst-sidebar-collapse .board-collapse,
-#bst-sidebar-collapse .board-collapse-items {
+#bst-sidebar .board-group,
+#bst-sidebar-collapse .board-group {
 	padding: 0;
 	margin: 0;
 }
 
 /* add arrow before collapse item */
-#bst-sidebar .board-collapse .board-item,
-#bst-sidebar-collapse .board-collapse .board-item {
+#bst-sidebar .board-group .board-item,
+#bst-sidebar-collapse .board-group .board-item {
 	position: relative;
 }
 
-#bst-sidebar .board-collapse > li::before,
-#bst-sidebar-collapse .board-collapse > li::before {
+#bst-sidebar li.board-item.board-collapse-items::before,
+#bst-sidebar-collapse li.board-item.board-collapse-items::before {
 	content: "\203A";
 	position: absolute;
 	top: 0;
 	left: 0;
-	transform: translate(16px, -3px);
+	transform: translate(6px, -3px);
 	font-size: 26px;
 	cursor: pointer;
 }
@@ -42,6 +45,7 @@
 #bst-sidebar .group-board,
 #bst-sidebar-collapse .group-board {
 	height: inherit;
+	overflow-y: auto;
 }
 
 #bst-sidebar-collapse .group-board {
@@ -61,9 +65,15 @@
 #bst-sidebar .board-item .board-link {
 	color: var(--color-grey-300);
 	text-wrap: nowrap;
-	padding-left: 2rem;
+	padding-left: 1.25rem;
 	display: flex;
 	align-items: center;
+	width: 100%;
+}
+
+#bst-sidebar .board-item .btn.btn-group:hover {
+	color: var(--color-grey-300);
+	background-color: inherit;
 }
 
 /* active item */
@@ -97,7 +107,9 @@
 #bst-sidebar-collapse {
 	display: none;
 }
+
 /* add arrow before collapse item: adjust position */
-#bst-sidebar-collapse .board-collapse > li::before {
-	left: 1rem;
+#bst-sidebar-collapse li.board-item.board-collapse-items::before {
+	left: 1.65rem;
+	transform: translate(6px, -7px) // right: 0;
 }

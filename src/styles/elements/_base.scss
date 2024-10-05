@@ -59,3 +59,39 @@ p {
 	padding: 1rem 2rem;
 	background-color: var(--color-white);
 }
+
+/* Global custom scrollbar styles */
+* {
+	scrollbar-width: thin;
+	/* For Firefox */
+	scrollbar-color: #888 #f1f1f1;
+	/* For Firefox */
+}
+
+/* Custom scrollbar for WebKit browsers (Chrome, Safari, etc.) */
+*::-webkit-scrollbar {
+	width: 8px;
+	/* Width of the scrollbar */
+}
+
+/* Track (background of the scrollbar) */
+*::-webkit-scrollbar-track {
+	background: #f1f1f1;
+	/* Color of the scrollbar track */
+}
+
+/* Handle (draggable part of the scrollbar) */
+*::-webkit-scrollbar-thumb {
+	background-color: #888;
+	/* Color of the scrollbar thumb */
+	border-radius: 10px;
+	/* Round the edges */
+	border: 2px solid #f1f1f1;
+	/* Adds padding around the thumb */
+}
+
+/* Handle hover effect */
+*::-webkit-scrollbar-thumb:hover {
+	background-color: #555;
+	/* Darker color on hover */
+}
